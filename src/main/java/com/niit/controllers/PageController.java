@@ -12,6 +12,7 @@ public class PageController {
 		return "index";
 	}
 	
+	
 	@RequestMapping(value="/home")
 	public String showHomePage1(){
 		
