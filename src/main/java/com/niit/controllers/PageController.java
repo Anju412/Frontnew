@@ -34,12 +34,12 @@ public class PageController {
 	@RequestMapping(value="/contactus")
 	public String showContactUs(){
 		
-		return "ContactUs";
+		return "Contact";
 	}
 	
 	@RequestMapping(value="/aboutus")
 	public String showAboutUs(){
 		
-		return "AboutUs";
+		return "Aboutus";
 	}
 }

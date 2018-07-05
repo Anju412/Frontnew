@@ -1,5 +1,4 @@
-<html>
-<body>
-<h2>Hello World!</h2>
+<%@ page language="java" contentType="text/html"%>
+<%@include file="Header.jsp" %>
 </body>
 </html>

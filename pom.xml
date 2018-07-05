@@ -34,6 +34,17 @@
     <artifactId>spring-webmvc</artifactId>
     <version>4.3.5.RELEASE</version>
 </dependency>
+<dependency>
+<groupId>com.niit</groupId>
+	<artifactId>backend</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+</dependency>
+      <!-- https://mvnrepository.com/artifact/jstl/jstl -->
+<dependency>
+    <groupId>jstl</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
       
   </dependencies>
   <build>
