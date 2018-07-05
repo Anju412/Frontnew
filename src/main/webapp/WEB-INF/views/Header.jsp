@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 <style>
 
-/* Show it is fixed to the top */
+
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
