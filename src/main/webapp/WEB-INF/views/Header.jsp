@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; "%>
 
-<%@include file="Header.jsp" %>
 <html>
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">

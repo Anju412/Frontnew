@@ -60,6 +60,7 @@
                    <input type="text" name="username" class="form-control" placeholder="Username">
                </div>
                
+               
                 <div class="form-group">
                   <label class="control-lable" for="password">Password</label>
                    <input type="password" name="password" class="form-control" placeholder="Password">
