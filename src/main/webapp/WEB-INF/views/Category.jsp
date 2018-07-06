@@ -2,7 +2,7 @@
 <%@include file="Header.jsp" %>
 <%@ page isELIgnored="false" %>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
-<title>Category </title>
+<title>Category Page</title>
 <body>
 <c:if test="${flag}">
 <form action="<c:url value="/UpdateCategory"/>" method="post">
