@@ -10,6 +10,7 @@ body
   min-height: 75rem;
   padding-top: 4.5rem;
 }
+
 </style>
     </head>
     <body>
@@ -23,14 +24,27 @@ body
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="login">Login <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="contactus">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link disabled" href="aboutus">Aboutus</a>
           </li>
+           <li class="nav-item">
+            <a class="nav-link disabled" href="register">Register</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link disabled" href="category">Category</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link disabled" href="product">Manage Product</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link disabled" href="supplier">Supplier</a>
+          </li>
+         
         </ul>
         <form class="form-inline mt-2 mt-md-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -38,12 +52,8 @@ body
         </form>
       </div>
     </nav>    
-<a href="login">Login</a>
-<a href="contactus">Contact</a>
-<a href="aboutus">Aboutus</a>
-<a href="register">Register</a>
-<a href="category">Category</a>
-<a href="product">Manage Product</a>
-<a href="supplier">Supplier</a>
+
+
+
 </body>
 </html>

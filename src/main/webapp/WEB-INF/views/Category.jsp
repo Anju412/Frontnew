@@ -4,9 +4,10 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <title>Category Page</title>
 <body>
+<br><br>
 <c:if test="${flag}">
 <form action="<c:url value="/UpdateCategory"/>" method="post">
-<table> 
+<table align="center" class="table-hover"> 
 	<tr>
 		<td>Category Id</td>
 		<td><input type="text" name="catId" value="${categoryData.categoryId}"readonly/></td>
@@ -34,7 +35,7 @@
 <c:if test="${!flag}">
 <form action="InsertCatgory" method="post">
 
-<table m.addAttribute("flag",flag);> 
+<table m.addAttribute("flag",flag); align="center" class="table-hover"> 
 	<tr>
 		<td>Category Name</td>
 		<td><input type="text" name="catname"/></td>
@@ -55,8 +56,8 @@
 	
 </table>
 </form>
-
-<table align="center">
+<br><br>
+<table align="center" align="center" class="table-striped">
 	<tr bgcolor="pink">
 		<td>Category Id</td>
 		<td>Category Name</td>

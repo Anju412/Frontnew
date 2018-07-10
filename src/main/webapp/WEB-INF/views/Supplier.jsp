@@ -4,12 +4,12 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <title>Supplier </title>
 <body>
-<br><br><br><br><br>
-<br><br><br><br><br>
+<br><br><br><br>
 
 <c:if test="${flag}">
 <form action="<c:url value="/updateSupplier"/>" method="post">
-<table> 
+<table > 
+
 	<tr>
 		<td>Supplier Id</td>
 		<td><input type="text" name="supId" value="${supplierData.suppId}"readonly/></td>
@@ -34,10 +34,11 @@
 </table>
 
 </c:if>
-<c:if test="${!flag}">
+<c:if test="${!flag}" >
 <form action="InsertSupplier" method="post">
 
-<table m.addAttribute("flag",flag);> 
+<table m.addAttribute("flag",flag); align="center" class="table-hover"> 
+
 	<tr>
 		<td>Supplier Name</td>
 		<td><input type="text" name="supname"/></td>
@@ -58,9 +59,10 @@
 	
 </table>
 </form>
+<br><br>
 
-<table align="center">
-	<tr bgcolor="pink">
+<table align="center" class="table-striped">
+	<tr bgcolor="black">
 		<td>Supplier Id</td>
 		<td>Supplier Name</td>
 		<td>Supplier Address</td>

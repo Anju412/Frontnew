@@ -3,15 +3,13 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 
-
+<div class="container">
 <body>
-<br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br>
-
+<br><br><br><br><
 
 <form:form action="ProductInsert" modelAttribute="product" method="post">
 
-<table align="center" cellspacing="3">
+<table align="center" cellspacing="3" class="table-hover">
 	<tr bgcolor="pink">
 		<center><td colspan="2">Product Manage</td></center>
 	</tr>
@@ -61,8 +59,9 @@
 
 </table>
 </form:form>
+</div>
 
-<table align="center">
+<table align="center" class="table-striped">
 	<tr bgcolor="pink">
 		<td>Product Id</td>
 		<td>Product Name</td>
@@ -94,7 +93,4 @@
 </tr>
 </c:forEach>
 </table>
-
-
-
 </body>

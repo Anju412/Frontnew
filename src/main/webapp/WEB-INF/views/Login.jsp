@@ -18,6 +18,23 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body
+{
+background: url("resources/images/2b.jpg")
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+</style>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -26,15 +43,16 @@
       <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-        </ul>
       </li>
-      <li><a href="#">Contact Us</a></li>
+      <li><a href="login">Login</a></li>
+      <li><a href="contactus">contact</a></li>
+      <li><a href="aboutus">Aboutus</a></li>
+      <li><a href="register">Register</a></li>
+      <li><a href="category">Category</a></li>
+      <li><a href="product">Manage Product</a></li>
+      <li><a href="supplier">Supplier</a></li>
+      
+      
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -42,6 +60,7 @@
     </ul>
   </div>
 </nav>
+
   
 <form action="">
 
@@ -81,6 +100,10 @@
 
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<div class="footer">
+  <p>Footer</p>
+</div>
+
 
 </body>
 </html>
